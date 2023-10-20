@@ -35,11 +35,4 @@
     </plugins>
   </build>
  
-<distributionManagement>
-    <repository>
-         <id>deployment</id>
-         <url>http://16.16.207.44:8081/#browse/browse:maven-public</url>
-    </repository>
-    </snapshotRepository>
-</distributionManagement>
 </project>
