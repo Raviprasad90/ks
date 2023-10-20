@@ -36,3 +36,13 @@
   </build>
  
 </project>
+<distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <url>http://16.16.207.44:8081/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <url>http://16.16.207.44:8081/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
