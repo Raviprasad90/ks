@@ -36,8 +36,9 @@
   </build>
  </project>
 <distributionManagement>
-    <snapshotRepository>
-    <id>deployment</id>
-    <url>http://http://16.16.207.44:8081/</url>
+     <snapshotRepository>
+         <id>deployment</id>
+         
+         <url>http://16.16.207.44:8081</url>
     </snapshotRepository>
 </distributionManagement>
