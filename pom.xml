@@ -37,8 +37,9 @@
  </project>
 
 <distributionManagement>
-     <snapshotRepository>
+    <repository>
          <id>deployment</id>
-         <url>http://http://16.16.207.44:8081/#browse/browse:maven-public</url>
+         <url>http://16.16.207.44:8081/#browse/browse:maven-public</url>
+    </repository>
     </snapshotRepository>
 </distributionManagement>
