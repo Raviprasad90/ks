@@ -13,11 +13,11 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <url>http://16.16.207.44:8081</url>
+      <url>http://http://16.16.207.44:8081/#browse/browse:maven-public</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://16.16.207.44:8081</url>
+      <url>http://http://16.16.207.44:8081/#browse/browse:maven-public</url>
     </snapshotRepository>
   </distributionManagement>
 
