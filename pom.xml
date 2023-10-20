@@ -35,10 +35,3 @@
     </plugins>
   </build>
   
-</project>
-<distributionManagement>
-    <snapshotRepository>
-    <id>deploymentRepo</id>
-    <url>http://http://13.51.157.244:8081/</url>
-    </snapshotRepository>
-</distributionManagement>
