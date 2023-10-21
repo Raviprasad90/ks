@@ -22,7 +22,7 @@
 
 <distributionManagement>
     <repository>
-         <id>nexus</id>
+         <id>deployment</id>
          <name>release</name>
          <url>http://16.170.238.115:8081/repository/</url>
     </repository>
