@@ -32,4 +32,6 @@
 </distributionManagement>
  </dependencies>
 </project>
-
+<build>
+  <finalName>final-snapshot</finalName>
+</build>
