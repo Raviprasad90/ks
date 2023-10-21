@@ -18,6 +18,8 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+</dependencies>
+
 <distributionManagement>
     <repository>
          <id>nexus</id>
@@ -30,8 +32,7 @@
          <url>http://http://51.20.126.130:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
- </dependencies>
-</project>
-<build>
+ <build>
   <finalName>final-snapshot</finalName>
 </build>
+</project>
