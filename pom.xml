@@ -18,6 +18,18 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
-  </dependencies>
+<distributionManagement>
+    <repository>
+         <id>nexus</id>
+         <name>release</name>
+         <url>http://51.20.126.130:8081/repository/maven-release/</url>
+    </repository>
+    <snapshotRepository>
+         <id>deployment</id>
+         <name>snapshot</name>
+         <url>http://http://51.20.126.130:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
+ </dependencies>
 </project>
 
