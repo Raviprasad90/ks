@@ -1,0 +1,33 @@
+node {
+     stage('code clone') { 
+     git credentialsId: 'git', url: 'https://github.com/Raviprasad90/ks.git'
+     }
+
+    stage('Code clean ') {
+        sh 'mvn clean'
+    }
+        
+    stage('mvn validave') {
+        sh 'mvn validate'
+    }
+
+    stage('mvn complie') {
+        sh 'mvn compile'
+    }
+
+    stage('mvn Test') {
+        sh 'mvn test'
+    }
+    stage('mvn package') {
+        sh 'mvn package'
+    }
+    stage('mvn install') {
+        sh 'mvn install'
+
+    }  
+        }  
+
+    
+    
+    
+    
