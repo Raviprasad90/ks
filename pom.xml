@@ -1,6 +1,7 @@
      <!--
                Excluding here because this artifact doesn't exist in the central repo
                -->
+         </project>
             <exclusion>
                <groupId>javax.jws</groupId>
                <artifactId>jsr181</artifactId>
