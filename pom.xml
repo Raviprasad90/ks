@@ -35,17 +35,6 @@
     </plugins>
   </build>
 
-<configuration>
-    <outputDirectory>${project.build.outputDirectory}/${item}/</outputDirectory>
-    <resources>
-        <resource>
-            <directory>${project.basedir}/config/resources/templates</directory>
-            <filtering>false</filtering>
-            <include>application.properties</include>
-        </resource>
-    </resources>
-</configuration>
-    
   <distributionManagement>
     <repository>
          <id>deployment</id>
