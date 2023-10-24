@@ -35,6 +35,12 @@
     </plugins>
   </build>
 
+   <resources>
+     <resource>
+       <directory>src/my-resources</directory>
+     </resource>
+   </resources>
+
   <distributionManagement>
     <repository>
          <id>deployment</id>
