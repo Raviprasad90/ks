@@ -35,7 +35,6 @@
     </plugins>
   </build>
 
-<goal>copy-resources</goal>
 <configuration>
     <outputDirectory>${project.build.outputDirectory}/${item}/</outputDirectory>
     <resources>
