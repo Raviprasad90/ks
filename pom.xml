@@ -35,20 +35,14 @@
     </plugins>
   </build>
 
-   <resources>
-     <resource>
-       <directory>src/my-resources</directory>
-     </resource>
-   </resources>
-
-  <distributionManagement>
+   <distributionManagement>
     <repository>
          <id>deployment</id>
-         <url>http://51.20.73.43:8081</url>
+         <url>http://51.20.73.43:8081/repository/maven-snapshots/</url>
     </repository>
     <snapshotRepository>
          <id>deployment</id>
-         <url>http://51.20.73.43:8081</url>
+         <url>http://51.20.73.43:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
